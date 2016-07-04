@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+	text-shadow: none;
+	outline: none;
+}
+body {
+	background: #e5e8ea;
+}
+header {
+	background: url(../images/header.jpg) repeat-y center center #000d0f;
+	background-size: 100% auto;
+	padding: 20px 0
+}
+header * {
+	text-align: center;
+}
+header h1 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 42px;
+	color: #fff;
+	text-transform: uppercase;
+	line-height: 32px
+}
+header h2 {
+	font-family: 'Pacifico', cursive;
+	font-size: 28px;
+	color: #fb4848;
+}
+.wrap {
+	position: relative;
+	max-width: 480px;
+	margin: auto;
+}
+section .card {
+	background: #fff;
+	width: 90%;
+	padding: 15px 10px;
+	margin: 20px auto;
+	border-radius: 4px;
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0,.1);
+	box-sizing: border-box;
+	transition: .12s ease;
+}
+section#lab {
+	margin-bottom: 120px;
+}
+section .card:hover {
+	transform: scale(1.1);
+	box-shadow: 0px 0px 30px 0px rgba(0, 0, 0,.2);
+	transition: .12s ease;
+}
+section .card * {
+	text-align: center;
+}
+section .card h1 {
+	font-family: 'Pacifico', cursive;
+	color: #fb4848;
+}
+section .card p {
+	font-family: 'Open Sans', sans-serif;
+	color: #343434;
+}
+section.social {
+	position: fixed;
+    background: -webkit-linear-gradient(rgba(255,255,255,0), #E5E8EA); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(255,255,255,0), #E5E8EA); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(255,255,255,0), #E5E8EA); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(255,255,255,0), #E5E8EA); /* Standard syntax */
+	width: 90%;
+	margin: 0 auto;
+	padding: 20px 0;
+	right:0;bottom:0;left:0;
+	box-sizing: border-box;
+}
+section.social nav ul {
+	display: flex;
+}
+section.social nav ul li {
+	flex: 1 1 auto;
+	margin: 0 10px;
+}
+section.social nav ul li:first-child {
+	margin-left: 0;
+}
+section.social nav ul li:last-child {
+		margin-right: 0;
+}
+section.social nav ul li a {
+	display: block;
+	transition: .12s ease;
+}
+section.social nav ul li:hover a {
+	transform: scale(1.2);
+	transition: .12s ease;
+}
+section.social nav ul li a img {
+	width: 100%;
+}
